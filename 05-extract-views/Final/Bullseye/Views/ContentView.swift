@@ -73,6 +73,9 @@ struct InstructionsView: View {
 
 #Preview {
   ContentView()
+}
+
+#Preview("Dark Mode") {
   ContentView()
     .preferredColorScheme(.dark)
 }

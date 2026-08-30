@@ -33,6 +33,9 @@ struct PreviewView: View {
 
 #Preview {
   PreviewView()
+}
+
+#Preview("Dark Mode") {
   PreviewView()
     .preferredColorScheme(.dark)
 }
