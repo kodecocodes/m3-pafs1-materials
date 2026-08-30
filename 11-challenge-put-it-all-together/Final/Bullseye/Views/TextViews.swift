@@ -49,10 +49,8 @@ struct LabelText: View {
 }
 
 #Preview {
-  VStack {
-    InstructionText(text: "Instructions")
-    BigNumberText(text: "999")
-    SliderLabelText(text: "99")
-    LabelText(text: "Score")
-  }
+  InstructionText(text: "Instructions")
+  BigNumberText(text: "999")
+  SliderLabelText(text: "99")
+  LabelText(text: "Score")
 }

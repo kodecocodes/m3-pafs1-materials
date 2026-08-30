@@ -37,9 +37,7 @@ struct SliderLabelText: View {
 }
 
 #Preview {
-  VStack {
-    InstructionText(text: "Instructions")
-    BigNumberText(text: "999")
-    SliderLabelText(text: "99")
-  }
+  InstructionText(text: "Instructions")
+  BigNumberText(text: "999")
+  SliderLabelText(text: "99")
 }
