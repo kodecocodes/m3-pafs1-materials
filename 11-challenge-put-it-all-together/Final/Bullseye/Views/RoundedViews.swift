@@ -59,7 +59,7 @@ struct PreviewView: View {
 }
 
 #Preview {
-    PreviewView()
-    PreviewView()
-      .preferredColorScheme(.dark)
+  PreviewView()
+  PreviewView()
+    .preferredColorScheme(.dark)
 }

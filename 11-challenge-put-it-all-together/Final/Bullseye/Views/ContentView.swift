@@ -80,17 +80,18 @@ struct HitMeButton: View {
       },
       message: {
         let roundedValue = Int(sliderValue.rounded())
-        Text("""
-          The slider's value is \(roundedValue).
-          You scored \(game.points(sliderValue: roundedValue)) points this round.
-        """)
+        Text(
+          """
+            The slider's value is \(roundedValue).
+            You scored \(game.points(sliderValue: roundedValue)) points this round.
+          """)
       }
     )
   }
 }
 
 #Preview {
-    ContentView()
-    ContentView()
-      .preferredColorScheme(.dark)
+  ContentView()
+  ContentView()
+    .preferredColorScheme(.dark)
 }

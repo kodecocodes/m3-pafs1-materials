@@ -21,5 +21,5 @@ struct Shapes: View {
 }
 
 #Preview {
-    Shapes()
+  Shapes()
 }

@@ -52,5 +52,5 @@ struct BottomView: View {
 }
 
 #Preview {
-    BackgroundView(game: .constant(Game()))
+  BackgroundView(game: .constant(Game()))
 }
