@@ -21,11 +21,9 @@ struct InstructionsView: View {
   @Binding var game: Game
 
   var body: some View {
-    VStack {
-      InstructionText(text: "🎯🎯🎯\nPut the Bullseye as close as you can to")
-        .padding(.horizontal, 30)
-      BigNumberText(text: String(game.target))
-    }
+    InstructionText(text: "🎯🎯🎯\nPut the Bullseye as close as you can to")
+      .padding(.horizontal, 30)
+    BigNumberText(text: String(game.target))
   }
 }
 
